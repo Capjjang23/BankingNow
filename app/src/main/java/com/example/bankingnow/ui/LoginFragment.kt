@@ -71,6 +71,12 @@ class LoginFragment : BaseFragment<DialogLoginBinding>(R.layout.dialog_login) {
             }
         }
 
+        binding.btnTest.setOnClickListener {
+            recorder.stopRecording()
+            MyApplication.prefs.setBoolean("isLogin", true)
+            requireActivity().onBackPressed()
+
+        }
         setFillCircle(0)
     }
 

@@ -56,5 +56,13 @@
             app:layout_constraintBottom_toTopOf="@+id/dialog_login"
             app:layout_constraintStart_toStartOf="@+id/tv_account_info" />
 
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="142dp"
+            android:layout_height="84dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -51,7 +51,7 @@ class Recorder {
                 Log.e("APP", "prepare() failed $e")
             }
 
-            sleep(200)
+            //sleep(0)
             start()
         }
         // 2.5초 후에 녹음 중단 및 서버 전송

@@ -76,6 +76,11 @@ class LoginDialog: BaseDialogFragment<DialogLoginBinding>(R.layout.dialog_login)
             }
         }
 
+        binding.btnTest.setOnClickListener {
+            prefs.setBoolean("isLogin", true)
+
+        }
+
         setFillCircle(0)
     }
 

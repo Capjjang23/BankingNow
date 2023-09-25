@@ -17,7 +17,7 @@
             android:layout_marginTop="116dp"
             android:fontFamily="@font/nanum_gothic_bold"
             android:lineHeight="30dp"
-            android:text="캡짱 님\n국민은행 통장잔액"
+            android:text="님\n통장잔액"
             android:textColor="@color/mainBlack"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"

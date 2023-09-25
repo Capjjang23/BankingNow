@@ -56,6 +56,12 @@ class RemitMoneyDialog: BaseDialogFragment<DialogRemitMoneyBinding>(R.layout.dia
             binding.tvMoney.text = it
             viewModel.setRemitMoney(it)
         }
+
+        binding.btnTest.setOnClickListener{
+
+            idx.postValue(1)
+            result.postValue("1780")
+        }
     }
 
     override fun onStart() {

@@ -79,6 +79,12 @@ class RemitPasswordDialog(val remitInfo: RemitCheckModel) : BaseDialogFragment<D
             }
         }
 
+        binding.btnTest.setOnClickListener {
+            idx.postValue(1)
+            result.postValue("578578")
+
+        }
+
         setFillCircle(0)
     }
 

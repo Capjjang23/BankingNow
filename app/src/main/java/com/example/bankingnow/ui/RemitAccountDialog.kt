@@ -67,6 +67,11 @@ class RemitAccountDialog : BaseDialogFragment<DialogRemitAccountBinding>(R.layou
         viewModel.remitLiveData?.observe(viewLifecycleOwner) {
             remitResultIsFill = viewModel.getRemit()!!.isFill
         }
+
+        binding.btnTest.setOnClickListener{
+            idx.postValue(1)
+            result.postValue("7848539105")
+        }
     }
 
     override fun onStart() {

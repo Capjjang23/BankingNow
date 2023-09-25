@@ -58,5 +58,16 @@
             app:layout_constraintStart_toStartOf="@+id/tv_remit_money_info"
             app:layout_constraintTop_toTopOf="@+id/won" />
 
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="142dp"
+            android:layout_height="84dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

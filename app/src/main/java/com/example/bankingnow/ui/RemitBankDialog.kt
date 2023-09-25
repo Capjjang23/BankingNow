@@ -68,6 +68,12 @@ class RemitBankDialog : BaseDialogFragment<DialogRemitBankBinding>(R.layout.dial
 
             viewModel.setRemitBank(it)
         }
+
+        binding.btnTest.setOnClickListener{
+            idx.postValue(1)
+            result.postValue("카카오뱅크")
+            state = "SUCCESS"
+        }
     }
 
 
